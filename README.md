@@ -50,7 +50,7 @@ Las comisiones se calculan de la siguiente forma:
 
 ## Arquitectura
 
-El proyecto implementa una versión simplificada de **Clean Architecture**, separando claramente responsabilidades en distintas capas.
+El proyecto implementa una versión simplificada de **Clean Architecture** (La idea es no hacer un overkill con un proyecto tan sencillo), separando claramente responsabilidades en distintas capas.
 
 ### Capas principales
 
