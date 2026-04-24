@@ -4,8 +4,6 @@
 
 Este proyecto consiste en una aplicación web que permite a vendedores calcular de forma rápida y precisa la comisión que recibirán en función de sus ventas mensuales y el país en el que operan.
 
-El sistema busca ofrecer transparencia en el cálculo de comisiones y facilitar la comprensión de los ingresos generados.
-
 ---
 
 ## Contexto de negocio
@@ -13,9 +11,9 @@ El sistema busca ofrecer transparencia en el cálculo de comisiones y facilitar 
 * Los vendedores operan en distintos países.
 * Cada país posee un esquema de comisión diferente.
 * Los vendedores ingresan:
-
   * Ventas totales
   * Descuentos aplicados
+  * País
 * El sistema calcula automáticamente la comisión según las reglas definidas por país.
 
 ---
@@ -145,7 +143,7 @@ frontend/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/JoseBeltre/commisions-p2
 ```
 
 ---
@@ -179,22 +177,6 @@ Aplicación disponible en:
 ```
 http://localhost:3001
 ```
-
----
-
-## Captura de la aplicación
-
-> Incluir aquí una imagen de la aplicación mostrando:
->
-> * Selección de país
-> * Entrada de datos
-> * Resultado de la comisión
-
----
-
-## Repositorio
-
-El código fuente se encuentra organizado siguiendo buenas prácticas de arquitectura y tipado, incluyendo separación de responsabilidades y uso de patrones de diseño.
 
 ---
 
